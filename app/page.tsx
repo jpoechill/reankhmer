@@ -46,12 +46,12 @@ export default function Home() {
             Phnom Penh 🇰🇭
           </div>
           <div className="text-center">
-            <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
+            <Image src="/_female-02.png" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Aun Heng</span> (22) <br />
             Phnom Penh 🇰🇭
           </div>
           <div className="text-center">
-            <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
+            <Image src="/_male-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Virak Virath</span> (22) <br />
             Siem Reap 🇰🇭
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-[60px] w-full flex flex-col justify-center bg-black text-white p-11 text-center">
+      <div className="mt-[60px] w-full flex flex-col justify-center bg-[#111] text-white p-11 text-center">
         <div className="text-[14px]">
           ABOUT THIS WEBSITE
         </div>
