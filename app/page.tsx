@@ -47,12 +47,12 @@ export default function Home() {
           <div className="text-center">
             <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Virak Virath</span> (22) <br />
-            Phnom Penh 🇰🇭
+            Siem Reap 🇰🇭
           </div>
           <div className="text-center">
             <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Sok Sok Chanet</span> (22) <br />
-            Phnom Penh 🇰🇭
+            Battambang 🇰🇭
           </div>
         </div>
       </div>
