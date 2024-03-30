@@ -14,7 +14,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-[100px] w-full flex items-center justify-center">
+      <div className="flex flex-col justify-center items-center text-[20px] text-white mt-[60px] bg-[url('/splash_cover.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
+
+        <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-5" />
+        Learn Khmer by Reading Stories
+      </div>
+
+      <div className="w-full flex items-center justify-center">
         <div className="bg-[#ccc] text-black rounded-3xl">
           <div className="p-10 w-[700px] text-[36px] text-center">
             កាបូបពីរ <br /><br />
