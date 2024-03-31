@@ -19,10 +19,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center text-[18px] text-white mt-[60px] bg-[url('/splash_cover_2.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
-
+      <div className="flex flex-col justify-center items-center text-[18px] text-white mt-[60px] bg-[url('/stories/eagle_and_cocks/eagle_and_cocks_cover.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
         <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-3" />
-        Learn Khmer by Reading Stories
+        The Eagle and the Cocks
       </div>
 
       <div className="w-full flex items-center justify-center">
@@ -90,7 +89,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-[60px] w-full flex flex-col justify-center bg-[#111] text-white p-11 text-center">
+      <div className="mt-[60px] pb-12 w-full flex flex-col justify-center bg-[url('/footer_bg.jpg')] bg-no-repeat bg-cover bg-center text-white p-11 text-center">
         <div className="text-[14px]">
           ABOUT THIS WEBSITE
         </div>
