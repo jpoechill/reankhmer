@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="283px" height="25px" viewBox="0 0 283 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="303px" height="25px" viewBox="0 0 303 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 25</title>
+    <title>Group 24</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M0,11.8460449 L0,30.372284 C1.62032946,29.2443803 3.70509932,28.6804285 6.25430959,28.6804285 C10.078125,28.6804285 17.8125,31.9623681 23.0859375,31.9623681 C26.6015625,31.9623681 28.90625,31.4323401 30,30.372284 L30,11.8460449 C27.5,12.917834 25.1953125,13.4537285 23.0859375,13.4537285 C19.921875,13.4537285 10.141731,10.0302271 6.25430959,10.0302271 C3.6626953,10.0302271 1.57792544,10.6354997 0,11.8460449 Z" id="path-1"></path>
@@ -12,14 +12,16 @@
                 <g id="Group-8" transform="translate(0.000000, 187.000000)">
                     <g id="Group-10" transform="translate(538.000000, 18.000000)">
                         <g id="Group-25">
-                            <text id="REAN-KHMER-©-2024" font-family="AvenirNextCondensed-Regular, Avenir Next Condensed" font-size="32" font-style="condensed" font-weight="normal" fill="#E9E9E9">
-                                <tspan x="39" y="32">REAN KHMER © 2024</tspan>
-                            </text>
-                            <mask id="mask-2" fill="white">
-                                <use xlink:href="#path-1"></use>
-                            </mask>
-                            <use id="Mask" fill="#FFFFFF" transform="translate(15.000000, 20.996298) scale(-1, 1) translate(-15.000000, -20.996298) " xlink:href="#path-1"></use>
-                            <path d="M9,23.4516938 C10.1396291,23.502754 11.2907615,23.7089894 12.4533973,24.0703999 C13.2938096,24.3316459 14.5964581,24.7078403 16.9791247,25.4670342 C17.5881519,25.6610897 18.5951103,25.838745 20,26 L20,25.4670342 L18.7645761,23.4007346 L18.7645761,21.814355 L17.7457837,19.2010883 L16.9791247,20.822278 L15.5454851,20.4675683 L14.5797578,17 L13.4234159,19.8956652 L12.0846829,19.5177825 L11.1826666,17.3040385 L10.3615899,19.3110846 L10.3615899,20.822278 L9,22.4082285 L9,23.4516938 Z" id="Path-4" fill="#428777" mask="url(#mask-2)" transform="translate(14.500000, 21.500000) scale(-1, 1) translate(-14.500000, -21.500000) "></path>
+                            <g id="Group-24">
+                                <text id="RUENG-KHMER-©-2024" font-family="AvenirNextCondensed-Regular, Avenir Next Condensed" font-size="32" font-style="condensed" font-weight="normal" fill="#E9E9E9">
+                                    <tspan x="39" y="32">RUENG KHMER © 2024</tspan>
+                                </text>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" transform="translate(15.000000, 20.996298) scale(-1, 1) translate(-15.000000, -20.996298) " xlink:href="#path-1"></use>
+                                <path d="M9,23.4516938 C10.1396291,23.502754 11.2907615,23.7089894 12.4533973,24.0703999 C13.2938096,24.3316459 14.5964581,24.7078403 16.9791247,25.4670342 C17.5881519,25.6610897 18.5951103,25.838745 20,26 L20,25.4670342 L18.7645761,23.4007346 L18.7645761,21.814355 L17.7457837,19.2010883 L16.9791247,20.822278 L15.5454851,20.4675683 L14.5797578,17 L13.4234159,19.8956652 L12.0846829,19.5177825 L11.1826666,17.3040385 L10.3615899,19.3110846 L10.3615899,20.822278 L9,22.4082285 L9,23.4516938 Z" id="Path-4" fill="#428777" mask="url(#mask-2)" transform="translate(14.500000, 21.500000) scale(-1, 1) translate(-14.500000, -21.500000) "></path>
+                            </g>
                         </g>
                     </g>
                 </g>

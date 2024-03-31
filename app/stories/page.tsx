@@ -10,7 +10,7 @@ export default function Home() {
       <div className="fixed bg-white w-full uppercase text-[#428777] z-10 px-5 md:px-20 shadow-md top-0 flex flex-row items-center justify-between h-[60px]">
         <div>
           <a href="/">
-            <Image src="/logo_white.svg" width={130} height={0} alt="REAN KHMER" />
+            <Image src="/logo_white.svg" width={140} height={0} alt="REAN KHMER" />
           </a>
         </div>
         <div className="hidden md:flex text-[#428777] flex-row text-[16px] items-center gap-10">
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex flex-row justify-center bg-[#429A85] text-white p-6 text-center">
-        <Image src="/logo_dark.svg" width={190} height={0} alt="REAN KHMER" />
+        <Image src="/logo_dark.svg" width={210} height={0} alt="REAN KHMER" />
       </div>
     </main >
   );
