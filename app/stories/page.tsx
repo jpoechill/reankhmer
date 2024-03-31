@@ -41,9 +41,9 @@ export default function Home() {
               មាន​មាន់​ពីរ​ក្បាល​នៅ​ក្នុង​ចម្ការ​តែ​មួយ ហើយ​ពួក​គេ​បាន​ប្រយុទ្ធ​ដើម្បី​សម្រេច​ថា​អ្នក​ណា​គួរ​ធ្វើ​ជា​ម្ចាស់។
             </div>
             <div className="text-[18px] pl-5 mt-2 pb-12">
-              ^
-              {/* &#x3e; */}
-              {/* There were two Cocks in the same farmyard, and they fought to decide who should be master. */}
+              {/* ^ */}
+              &#x3e;
+              There were two Cocks in the same farmyard, and they fought to decide who should be master.
             </div>
 
             <div className={`${myFont.className}` + ' text-[34px] leading-[70px] font-medium tracking-wide w-full'}>
