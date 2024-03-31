@@ -2,7 +2,7 @@ import Image from "next/image";
 import localFont from 'next/font/local'
 
 //👇 Configure our local font object
-const myFont = localFont({ src: '../freehand.ttf' })
+const myFont = localFont({ src: '../../public/fonts/freehand.ttf' })
 
 export default function Home() {
   return (
@@ -19,9 +19,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center text-[18px] text-white mt-[60px] bg-[url('/stories/eagle_and_cocks/eagle_and_cocks_cover.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
-        <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-3" />
-        The Eagle and the Cocks
+      <div className="flex flex-col justify-center items-center text-center text-[18px] text-white mt-[60px] bg-[url('/stories/eagle_and_cocks/eagle_and_cocks_cover.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
+        {/* <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-4" /> */}
+        <div className={`${myFont.className}` + ' mt-0 text-[70px] leading-[110px] font-medium tracking-wide w-full'}>
+          សត្វឥន្ទ្រី និងមាន់ជល់
+        </div>
+        <div className="mt-2">
+          The Eagle and the Cocks
+        </div>
+        <div className="mt-2 text-[14px]">
+          <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+          <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+          <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+        </div>
       </div>
 
       <div className="w-full flex items-center justify-center">
@@ -31,7 +41,9 @@ export default function Home() {
               មាន​មាន់​ពីរ​ក្បាល​នៅ​ក្នុង​ចម្ការ​តែ​មួយ ហើយ​ពួក​គេ​បាន​ប្រយុទ្ធ​ដើម្បី​សម្រេច​ថា​អ្នក​ណា​គួរ​ធ្វើ​ជា​ម្ចាស់។
             </div>
             <div className="text-[18px] pl-5 mt-2 pb-12">
-              &#x3e; There were two Cocks in the same farmyard, and they fought to decide who should be master.
+              ^
+              {/* &#x3e; */}
+              {/* There were two Cocks in the same farmyard, and they fought to decide who should be master. */}
             </div>
 
             <div className={`${myFont.className}` + ' text-[34px] leading-[70px] font-medium tracking-wide w-full'}>
@@ -52,9 +64,9 @@ export default function Home() {
               ភ្លាមៗនោះមាន់មួយក្បាលទៀតបានចេញពីជ្រុងរបស់គាត់ ហើយគ្រប់គ្រងលើគ្រែដោយគ្មានគូប្រជែង។
             </div>
             <div className="text-[18px] pl-5 mt-2 pb-12">
-              &#x3e; Forthwith the other cock came out of his corner and ruled the roost without a rival.
+              &#x3e; Forthwith, the other cock came out of his corner and ruled the roost without a rival.
             </div>
-            <div className="w-full text-center mb-10">
+            <div className="w-full text-center mb-0">
               •••
             </div>
           </div>
@@ -93,7 +105,7 @@ export default function Home() {
       </div>
 
       <div className="mt-[60px] pb-12 w-full flex flex-col justify-center bg-[url('/footer_bg.jpg')] bg-no-repeat bg-cover bg-center text-white p-11 text-center">
-        <div className="text-[14px]">
+        <div className="text-[14px] font-bold">
           ABOUT THIS WEBSITE
         </div>
         <div className="pt-5 w-full flex justify-center">
@@ -105,6 +117,6 @@ export default function Home() {
       <div className="w-full flex flex-row justify-center bg-[#429A85] text-white p-6 text-center">
         <Image src="/logo_dark.svg" width={190} height={0} alt="REAN KHMER" />
       </div>
-    </main>
+    </main >
   );
 }

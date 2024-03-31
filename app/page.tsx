@@ -144,7 +144,7 @@ export default function Home() {
       </div>
 
       <div className="mt-[60px] pb-12 w-full flex flex-col justify-center bg-[url('/footer_bg.jpg')] bg-no-repeat bg-cover bg-center text-white p-11 text-center">
-        <div className="text-[14px]">
+        <div className="text-[14px] font-bold">
           ABOUT THIS WEBSITE
         </div>
         <div className="pt-5 w-full flex justify-center">
