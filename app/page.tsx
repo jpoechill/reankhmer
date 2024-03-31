@@ -27,11 +27,12 @@ export default function Home() {
       <div className="w-full flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full px-10 lg:grid-cols-3 gap-y-10 gap-7 max-w-[1100px]">
 
-
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
@@ -46,7 +47,6 @@ export default function Home() {
                   <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
-
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
@@ -56,7 +56,9 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
@@ -67,7 +69,9 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
@@ -78,7 +82,9 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
@@ -89,7 +95,9 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
@@ -100,7 +108,9 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                <a href="/stories">
+                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                </a>
               </div>
             </div>
             <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
