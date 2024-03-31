@@ -16,32 +16,102 @@ export default function Home() {
 
       <div className="flex flex-col justify-center items-center text-[20px] text-white mt-[60px] bg-[url('/splash_cover.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
 
-        <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-5" />
+        <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-3" />
         Learn Khmer by Reading Stories
       </div>
 
       <div className="w-full flex items-center justify-center">
-        <div className="bg-[#ccc] text-black rounded-3xl">
-          <div className="p-10 w-[700px] text-[36px] text-center">
-            កាបូបពីរ <br /><br />
-            បុរសគ្រប់រូបកាន់កាបូបពីរទៅជាមួយ មួយនៅខាងមុខ និងមួយពីក្រោយ ហើយទាំងពីរគឺពោរពេញទៅដោយកំហុស។
-            <br /><br />
+        <div className="grid grid-cols-1 md:grid-cols-2 w-full px-10 lg:grid-cols-3 gap-y-10 gap-7 max-w-[1100px]">
 
-            កាបូប​នៅ​ពី​មុខ​មាន​កំហុស​របស់​អ្នក​ជិត​ខាង​ដែល​នៅ​ពី​ក្រោយ​ខ្លួន​គាត់។
-            <br /><br />
 
-            ដូច្នេះ​ហើយ​ទើប​មនុស្ស​ប្រុស​មិន​មើល​ឃើញ​កំហុស​របស់​ខ្លួន ប៉ុន្តែ​មិន​ដែល​មើល​ឃើញ​កំហុស​របស់​អ្នក​ដទៃ​ឡើយ។
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
           </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+          <div className="w-full">
+            <div className="w-full mb-1">
+              <div className="overflow-hidden rounded-2xl">
+                <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+              </div>
+            </div>
+            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+          </div>
+
         </div>
       </div>
 
-      <div className="flex flex-col justify-center mt-10">
+      <div className="flex flex-col justify-center mt-20">
         <div className="text-center text-[14px]">
           Made with Support From
         </div>
         <div className="flex flex-row gap-[60px] mt-10 justify-center text-sm">
           <div className="text-center">
-            <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
+            <Image src="/female-01.png" width={80} height={0} className="rounded-full bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Virak Pheach</span> (22) <br />
             Phnom Penh 🇰🇭
           </div>
@@ -56,7 +126,7 @@ export default function Home() {
             Siem Reap 🇰🇭
           </div>
           <div className="text-center">
-            <Image src="/_female-01.jpg" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
+            <Image src="/_male-02.png" width={80} height={0} className="mx-auto mb-3" alt="Virak"></Image>
             <span className="font-bold">Sok Sok Chanet</span> (22) <br />
             Battambang 🇰🇭
           </div>
