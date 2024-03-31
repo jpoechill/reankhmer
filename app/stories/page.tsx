@@ -1,4 +1,8 @@
 import Image from "next/image";
+import localFont from 'next/font/local'
+
+//👇 Configure our local font object
+const myFont = localFont({ src: '../freehand.ttf' })
 
 export default function Home() {
   return (
@@ -22,10 +26,19 @@ export default function Home() {
       </div>
 
       <div className="w-full flex items-center justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 w-full px-10 lg:grid-cols-3 gap-y-10 gap-7 max-w-[1100px]">
+        <div className="w-full px-10 max-w-[1100px] mb-10">
+          <div className={`${myFont.className}` + ' text-[34px] leading-[70px] font-medium tracking-wide w-full'}>
+            មាន​មាន់​ពីរ​ក្បាល​នៅ​ក្នុង​ចម្ការ​តែ​មួយ ហើយ​ពួក​គេ​បាន​ប្រយុទ្ធ​ដើម្បី​សម្រេច​ថា​អ្នក​ណា​គួរ​ធ្វើ​ជា​ម្ចាស់។ <br /><br />
+            ពេល​វាយ​គ្នា​ចប់ ជន​រង​គ្រោះ​ក៏​ទៅ​លាក់​ខ្លួន​នៅ​ជ្រុង​ងងឹត ។ <br /><br />
+            ខណៈ​ដែល​អ្នក​ឈ្នះ​បាន​ហោះ​ឡើង​ទៅ​លើ​ដំបូល​ក្រោល​ហើយ​ស្រែក​ឆោឡោ។<br /><br />
+            ប៉ុន្តែ​ឥន្ទ្រី​មួយ​ក្បាល​បាន​ឈ្លប​មើល​គាត់​ពី​ទី​ខ្ពស់​មក​លើ​មេឃ
+            ហើយ​ហោះ​ចុះ​ក្រោម​យក​គាត់​ចេញ។  <br /><br />
+            ភ្លាមៗនោះ Cock
+            ម្នាក់ទៀតបានចេញពីជ្រុងរបស់គាត់
+            ហើយគ្រប់គ្រង roost
+            ដោយគ្មានគូប្រជែង។
 
-          STORIES
-
+          </div>
         </div>
       </div>
 
