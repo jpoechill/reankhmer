@@ -35,7 +35,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <div className="mt-3 text-[16px] mb-2">The Two Bags</div>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
@@ -61,7 +61,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <div className="mt-3 text-[16px] mb-2">The Dog and the Shadow</div>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
@@ -74,7 +74,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <div className="mt-3 text-[16px] mb-2">The Wolf in Sheep&apos;s Clothing</div>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
@@ -87,33 +87,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
-          </div>
-          <div className="w-full">
-            <div className="w-full mb-1">
-              <div className="overflow-hidden rounded-2xl">
-                <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
-                </a>
-              </div>
-            </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
-            <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
-          </div>
-          <div className="w-full">
-            <div className="w-full mb-1">
-              <div className="overflow-hidden rounded-2xl">
-                <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
-                </a>
-              </div>
-            </div>
-            <div className="mt-3 text-[16px] mb-2">The Eagle and the Cocks</div>
+            <div className="mt-3 text-[16px] mb-2">The Hare and the Tortoise</div>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
