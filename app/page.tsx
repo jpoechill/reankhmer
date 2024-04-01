@@ -31,7 +31,7 @@ export default function Home() {
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  <Image src="/splash_thumbs/twobags.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Home() {
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  <Image src="/splash_thumbs/eagle_and_cocks.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  <Image src="/splash_thumbs/dogandshadow.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  <Image src="/splash_thumbs/wolfinsheep.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
-                  <Image src="/splash_thumbs/eagle_and_cocks.jpg" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  <Image src="/splash_thumbs/hareandtortoise.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
             </div>
