@@ -11,7 +11,7 @@ const myFont = localFont({ src: '../../public/fonts/freehand.ttf' })
 export default function Home() {
   const [caret, setCaret] = useState([false, false, false, false]);
 
-  const toggleCaret = (caretIndex) => {
+  const toggleCaret = (caretIndex: number) => {
     // alert('123')
     setCaret(prev => {
       // console.log(prev[0])
