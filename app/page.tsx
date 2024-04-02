@@ -56,7 +56,7 @@ export default function Home() {
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <a href="/stories">
+                <a href="/stories/dogandshadow">
                   <Image src="/splash_thumbs/dogandshadow.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
