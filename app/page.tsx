@@ -148,7 +148,9 @@ export default function Home() {
           <div className="max-w-[800px] text-[14px]">
             At the heart of our endeavor lies a deep commitment to fostering cultural exchange and understanding. By providing translations of short stories from English into Khmer, we aim to celebrate the beauty of language and literature while simultaneously preserving and promoting the unique heritage of Cambodia. Our website is more than just a repository of translated stories; it is a testament to the power of language to unite, inspire, and enrich lives. Through our collective efforts, we hope to foster a deeper understanding and appreciation of both English and Khmer literature, strengthening the bonds that connect us as global citizens while celebrating the unique beauty of Cambodia&apos;s cultural heritage.
             <br /><br />
-            All images courtesy of Midjourney.
+            <span className="italic">
+              All images courtesy of Midjourney.
+            </span>
           </div>
         </div>
       </div>
