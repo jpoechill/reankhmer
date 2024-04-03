@@ -56,7 +56,7 @@ export default function Home() {
           <div className='w-full'>
 
             <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ថ្ងៃមួយ សត្វទន្សាយកំពុងលេងសើចនឹងអណ្តើក ដោយសារវាយឺតពេកនៅលើជើងរបស់គាត់។ អណ្តើកបាននិយាយថា "ចាំបន្តិច" "ខ្ញុំនឹងរត់ប្រណាំងជាមួយអ្នក ហើយខ្ញុំនឹងភ្នាល់ថាខ្ញុំឈ្នះ"
+              ថ្ងៃមួយ សត្វទន្សាយកំពុងលេងសើចនឹងអណ្តើក ដោយសារវាយឺតពេកនៅលើជើងរបស់គាត់។ អណ្តើកបាននិយាយថា &quot;ចាំបន្តិច&quot; &quot;ខ្ញុំនឹងរត់ប្រណាំងជាមួយអ្នក ហើយខ្ញុំនឹងភ្នាល់ថាខ្ញុំឈ្នះ&quot;
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
