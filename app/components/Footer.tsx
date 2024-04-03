@@ -9,28 +9,28 @@ export default function Home() {
     <div>
       <div className="flex flex-col justify-center mt-20">
         <div className="text-center text-[14px]">
-          Made with Support From ❤️
+          Made with ❤️ and Support From
         </div>
         <div className="w-full flex justify-center">
 
           <div className="grid grid-cols-2 w-full max-w-[500px] lg:max-w-[825px] max-auto px-10 lg:grid-cols-4 gap-10 gap-x-0 lg:gap-[60px] mt-10 justify-center text-sm">
             <div className="text-center">
-              <Image src="/female-01.png" width={80} height={0} className="rounded-full bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
+              <Image src="/female-01.png" width={80} height={0} className="rounded-full grayscale bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
               <span className="font-bold">Virak Pheach</span> (19) <br />
               Phnom Penh 🇰🇭
             </div>
             <div className="text-center">
-              <Image src="/female-02.png" width={80} height={0} className="rounded-full bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
+              <Image src="/female-02.png" width={80} height={0} className="rounded-full grayscale bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
               <span className="font-bold">Aun Heng</span> (22) <br />
               Phnom Penh 🇰🇭
             </div>
             <div className="text-center">
-              <Image src="/male-01.png" width={80} height={0} className="rounded-full bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
+              <Image src="/male-01.png" width={80} height={0} className="rounded-full grayscale bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
               <span className="font-bold">Virak Virath</span> (23) <br />
               Siem Reap 🇰🇭
             </div>
             <div className="text-center">
-              <Image src="/male-02.png" width={80} height={0} className="rounded-full bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
+              <Image src="/male-02.png" width={80} height={0} className="rounded-full grayscale bg-[#53c2a8] mx-auto mb-3" alt="Virak"></Image>
               <span className="font-bold">Sok Chanet</span> (22) <br />
               Battambang 🇰🇭
             </div>
@@ -53,7 +53,9 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex flex-row justify-center bg-[#429A85] text-white p-6 text-center">
-        <Image src="/logo_dark.svg" width={210} height={0} alt="REAN KHMER" />
+        <a href="/">
+          <Image src="/logo_dark.svg" width={210} height={0} alt="REAN KHMER" />
+        </a>
       </div>
     </div>
   );

@@ -98,18 +98,17 @@ export default function Home() {
 
 
             <div>
-              <Image onClick={() => toggleCaret(2)} src="/stories/wolfinsheep/wolfinsheep_04.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
+              <Image onClick={() => toggleCaret(3)} src="/stories/wolfinsheep/wolfinsheep_04.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
-            <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
-              <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
-                <Image src={!caret[2] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
+              <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">
+                <Image src={!caret[3] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
               </div>
-              <div className={(caret[2] === true ? 'opacity-100' : 'opacity-0') + "  transition-opacity ease-in-out duration-200  pl-9"}>
+              <div className={(caret[3] === true ? 'opacity-100' : 'opacity-0') + "  transition-opacity ease-in-out duration-200  pl-9"}>
                 But that very night as it happened, the shepherd, requiring a supply of mutton for the table, laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot.
-
               </div>
             </div>
 

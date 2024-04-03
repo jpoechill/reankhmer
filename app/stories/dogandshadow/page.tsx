@@ -3,7 +3,6 @@
 import Image from "next/image";
 import localFont from 'next/font/local'
 import { useRef, useState } from 'react'
-
 import Footer from '@/app/components/Footer'
 
 //👇 Configure our local font object

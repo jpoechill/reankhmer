@@ -79,10 +79,11 @@ export default function Home() {
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
           </div>
+
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <a href="/stories">
+                <a href="/stories/tortoiseandhare">
                   <Image src="/splash_thumbs/hareandtortoise.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
@@ -92,10 +93,11 @@ export default function Home() {
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
           </div>
+
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
-                <a href="/stories">
+                <a href="/stories/miceandweasels">
                   <Image src="/splash_thumbs/miceandweasels.png" className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
                 </a>
               </div>
