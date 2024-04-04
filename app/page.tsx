@@ -22,10 +22,16 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center text-[18px] text-white mt-[60px] bg-[url('/splash_cover_2.jpg')] bg-no-repeat bg-cover bg-center h-[400px] mb-12">
         <Image src="/splash_hero_txt.svg" width={1000} height={500} alt="Learn Khmer by Reading Stories (in Khmer)" className="mb-3" />
         Learn Khmer by Reading Stories
+
+
       </div>
 
       <div className="w-full flex items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full px-10 lg:grid-cols-3 gap-y-10 gap-7 max-w-[1100px]">
+
+
+
+
 
           <div className="w-full">
             <div className="w-full mb-1">

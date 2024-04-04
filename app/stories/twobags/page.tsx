@@ -54,8 +54,15 @@ export default function Home() {
         <div className="w-full px-10 max-w-[1100px] mt-10 mb-0">
           <div className='w-full'>
 
-            <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full mb-3'}>
               បុរសគ្រប់រូបកាន់កាបូបពីរទៅជាមួយ មួយនៅខាងមុខ និងមួយពីក្រោយ ហើយទាំងពីរគឺពោរពេញទៅដោយកំហុស។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/twobags/audio_01.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
@@ -67,11 +74,17 @@ export default function Home() {
             </div>
 
             <div>
-              <Image src="/stories/twobags/twobags_02.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
+              <Image src="/stories/twobags/twobags_02.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-5" />
             </div>
-
-            <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none mb-3'}>
               កាបូប​នៅ​ពី​មុខ​មាន​កំហុស​របស់​អ្នក​ជិត​ខាង​ដែល​នៅ​ពី​ក្រោយ​ខ្លួន​គាត់។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/twobags/audio_02.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(1)} className="absolute left-3 cursor-pointer">
@@ -83,11 +96,18 @@ export default function Home() {
             </div>
 
             <div>
-              <Image src="/stories/twobags/twobags_03.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
+              <Image src="/stories/twobags/twobags_03.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-5" />
             </div>
 
-            <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none mb-3'}>
               ដូច្នេះ​ហើយ​ទើប​មនុស្ស​ប្រុស​មិន​មើល​ឃើញ​កំហុស​របស់​ខ្លួន ប៉ុន្តែ​មិន​ដែល​មើល​ឃើញ​កំហុស​របស់​អ្នក​ដទៃ​ឡើយ។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/twobags/audio_03.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
