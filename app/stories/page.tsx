@@ -57,6 +57,13 @@ export default function Home() {
             <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               មាន​មាន់​ពីរ​ក្បាល​នៅ​ក្នុង​ចម្ការ​តែ​មួយ ហើយ​ពួក​គេ​បាន​ប្រយុទ្ធ​ដើម្បី​សម្រេច​ថា​អ្នក​ណា​គួរ​ធ្វើ​ជា​ម្ចាស់។
             </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/eagleandroosters/audio_01.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[0] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -72,6 +79,13 @@ export default function Home() {
 
             <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               ពេល​វាយ​គ្នា​ចប់ ជន​រង​គ្រោះ​ក៏​ទៅ​លាក់​ខ្លួន​នៅ​ជ្រុង​ងងឹត ។ ខណៈ​ដែល​អ្នក​ឈ្នះ​បាន​ហោះ​ឡើង​ទៅ​លើ​ដំបូល​ក្រោល​ហើយ​ស្រែក​ឆោឡោ។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/eagleandroosters/audio_02.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(1)} className="absolute left-3 cursor-pointer">
@@ -89,6 +103,13 @@ export default function Home() {
             <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               ប៉ុន្តែ​ឥន្ទ្រី​មួយ​ក្បាល​បាន​ឈ្លប​មើល​គាត់​ពី​ទី​ខ្ពស់​មក​លើ​មេឃ ហើយ​ហោះ​ចុះ​ក្រោម​យក​គាត់​ចេញ។
             </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/eagleandroosters/audio_03.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[2] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -104,6 +125,13 @@ export default function Home() {
 
             <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               ភ្លាមៗនោះមាន់មួយក្បាលទៀតបានចេញពីជ្រុងរបស់គាត់ ហើយគ្រប់គ្រងលើគ្រែដោយគ្មានគូប្រជែង។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/eagleandroosters/audio_04.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">

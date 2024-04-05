@@ -52,25 +52,38 @@ export default function Home() {
       <div className="w-full flex items-center justify-center">
         <div className="w-full px-10 max-w-[1100px] mt-10 mb-0">
           <div className='w-full'>
-
             <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               ចចក​បាន​សម្រេចចិត្ត​ក្លែង​ខ្លួន​គាត់​ដើម្បី​ឱ្យ​គាត់​អាច​ចាប់​ហ្វូង​ចៀម​ដោយ​មិន​ខ្លាច​ការ​រកឃើញ។
             </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/wolfinsheep/audio_01.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
+                {/* Translate? */}
                 <Image src={!caret[0] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
               </div>
-              <div className={(caret[0] === true ? 'opacity-100' : 'opacity-0') + "  transition-opacity ease-in-out duration-200  pl-9"}>
+              <div className={(caret[0] === true ? 'opacity-100' : 'opacity-0') + "  font-light transition-opacity ease-in-out duration-200  pl-9"}>
                 A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection.
               </div>
             </div>
-
             <div>
               <Image src="/stories/wolfinsheep/wolfinsheep_02.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
 
-            <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none mb-3'}>
               ដូច្នេះ គាត់​បាន​ស្លៀក​ពាក់​ស្បែក​ចៀម ហើយ​រអិល​ជើង​ទៅ​លើ​ហ្វូង​ចៀម ពេល​ដែល​វា​ចេញ​នៅ​វាល​ស្មៅ។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/wolfinsheep/audio_02.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(1)} className="absolute left-3 cursor-pointer">
@@ -84,8 +97,15 @@ export default function Home() {
             <div>
               <Image src="/stories/wolfinsheep/wolfinsheep_03.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
-            <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+            <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none mb-3'}>
               គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/wolfinsheep/audio_03.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
@@ -96,19 +116,44 @@ export default function Home() {
               </div>
             </div>
 
-
             <div>
               <Image onClick={() => toggleCaret(3)} src="/stories/wolfinsheep/wolfinsheep_04.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
             <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។
+              ប៉ុន្តែនៅយប់នោះដូចដែលវាបានកើតឡើង អ្នកគង្វាលតម្រូវឱ្យផ្គត់ផ្គង់សាច់ចៀមសម្រាប់តុ
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/wolfinsheep/audio_04.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-8">
+              <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">
+                <Image src={!caret[3] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
+              </div>
+              <div className={(caret[3] === true ? 'opacity-100' : 'opacity-0') + "  transition-opacity ease-in-out duration-200  pl-9"}>
+                But that very night as it happened, the shepherd, requiring a supply of mutton for the table,
+              </div>
+            </div>
+
+            <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
+              បានដាក់ដៃលើឆ្កែចចកដោយខុសឆ្គងចំពោះចៀម ហើយសម្លាប់វាដោយកាំបិតនៅនឹងកន្លែង។
+            </div>
+            <div>
+              <audio controls className="w-full mb-5">
+                {/* <source src="horse.ogg" type="audio/ogg"> */}
+                <source src="/stories/wolfinsheep/audio_05.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </div>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[3] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
               </div>
               <div className={(caret[3] === true ? 'opacity-100' : 'opacity-0') + "  transition-opacity ease-in-out duration-200  pl-9"}>
-                But that very night as it happened, the shepherd, requiring a supply of mutton for the table, laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot.
+                laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot.
               </div>
             </div>
 

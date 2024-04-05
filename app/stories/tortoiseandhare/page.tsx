@@ -50,7 +50,7 @@ export default function Home() {
           <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
         </div>
       </div>
-
+      {/* ថ្ងៃមួយ សត្វទន្សាយកំពុងលេងសើចនឹងអណ្តើក ដោយសារវាយឺតពេកនៅលើជើងរបស់គាត់។ អណ្តើកបាននិយាយថា ចាំបន្តិច ខ្ញុំនឹងរត់ប្រណាំងជាមួយអ្នក ហើយខ្ញុំនឹងភ្នាល់ថាខ្ញុំឈ្នះ */}
       <div className="w-full flex items-center justify-center">
         <div className="w-full px-10 max-w-[1100px] mt-10 mb-0">
           <div className='w-full'>
@@ -58,6 +58,16 @@ export default function Home() {
             <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               ថ្ងៃមួយ សត្វទន្សាយកំពុងលេងសើចនឹងអណ្តើក ដោយសារវាយឺតពេកនៅលើជើងរបស់គាត់។ អណ្តើកបាននិយាយថា &quot;ចាំបន្តិច&quot; &quot;ខ្ញុំនឹងរត់ប្រណាំងជាមួយអ្នក ហើយខ្ញុំនឹងភ្នាល់ថាខ្ញុំឈ្នះ&quot;
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_01.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_02.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[0] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -70,10 +80,16 @@ export default function Home() {
             <div>
               <Image src="/stories/tortoiseandhare/tortoiseandhare_02.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
-
+            {/* 'អូ!' សត្វទន្សាយឆ្លើយថា 'តោះសាកល្បងមើល'។ ហើយភ្លាមៗនោះ គេបានយល់ព្រមថា កញ្ជ្រោងគួរតែរៀបចំផ្លូវសម្រាប់ពួកគេ ហើយធ្វើជាចៅក្រម។ */}
             <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               &quot;អូ!&quot; សត្វទន្សាយឆ្លើយថា &quot;តោះសាកល្បងមើល&quot;។ ហើយភ្លាមៗនោះ គេបានយល់ព្រមថា កញ្ជ្រោងគួរតែរៀបចំផ្លូវសម្រាប់ពួកគេ ហើយធ្វើជាចៅក្រម។
             </div>
+
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_03.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(1)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[1] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -88,8 +104,19 @@ export default function Home() {
             </div>
 
             <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ពេល​វេលា​បាន​មក​ដល់​អ្នក​ទាំង​ពីរ​ចាប់​ផ្តើម​ដើរ​លេង​ជាមួយ​គ្នា ប៉ុន្តែ​សត្វ​ទន្សាយ​ក៏​មក​ដល់​ពេល​ឆាប់​ៗ​នេះ គិត​ថា​គាត់​ប្រហែល​ជា​បាន​សម្រាក​ដូច​គ្នា ដូច្នេះ​ហើយ​គាត់​ក៏​ដេក​លក់​យ៉ាង​លឿន។
+              ពេល​វេលា​បាន​មក​ដល់​អ្នក​ទាំង​ពីរ​ចាប់​ផ្តើម​ដើរ​លេង​ជាមួយ​គ្នា ប៉ុន្តែ​សត្វ​ទន្សាយ​ក៏​មក​ដល់​ពេល​ឆាប់​ៗ​នេះ
+              គិត​ថា​គាត់​ប្រហែល​ជា​បាន​សម្រាក​ដូច​គ្នា ដូច្នេះ​ហើយ​គាត់​ក៏​ដេក​លក់​យ៉ាង​លឿន។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_04.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_05.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[2] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -105,8 +132,19 @@ export default function Home() {
             </div>
 
             <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ខណៈនោះ អណ្តើក​បាន​បន្ត​រុក​រុក​បន្ត ហើយ​ទាន់​ពេល​វេលា​ក៏​ឈាន​ដល់​គោលដៅ។ ទីបំផុត ទន្សាយភ្ញាក់ឡើងដោយចាប់ផ្តើម ហើយរត់យ៉ាងលឿនបំផុត ប៉ុន្តែគ្រាន់តែដឹងថា អណ្តើកបានឈ្នះការប្រណាំងរួចហើយ។
+              ខណៈនោះ អណ្តើក​បាន​បន្ត​រុក​រុក​បន្ត ហើយ​ទាន់​ពេល​វេលា​ក៏​ឈាន​ដល់​គោលដៅ។
+              ទីបំផុត ទន្សាយភ្ញាក់ឡើងដោយចាប់ផ្តើម ហើយរត់យ៉ាងលឿនបំផុត ប៉ុន្តែគ្រាន់តែដឹងថា អណ្តើកបានឈ្នះការប្រណាំងរួចហើយ។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_06.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/tortoiseandhare/audio_07.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[3] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>

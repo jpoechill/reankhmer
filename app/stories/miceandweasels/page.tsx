@@ -56,8 +56,13 @@ export default function Home() {
           <div className='w-full'>
 
             <div onClick={() => toggleCaret(0)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              សត្វឆ្កែមួយក្បាលកំពុងឆ្លងកាត់ស្ពានឈើមួយនៅលើទឹកហូរដែលមានសាច់មួយនៅក្នុងមាត់របស់វា នៅពេលដែលវាបានឃើញការឆ្លុះបញ្ចាំងផ្ទាល់របស់វានៅក្នុងទឹក។
+              មានសង្រ្គាមរវាងសត្វកណ្ដុរ និងសត្វកណ្ដុរ ដែលក្នុងនោះសត្វកណ្ដុរតែងតែទទួលបានភាពអាក្រក់បំផុតពីវា ដោយចំនួនពួកវាត្រូវបានសម្លាប់ និងស៊ីដោយសត្វខ្លា។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_01.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(0)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[0] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -74,6 +79,11 @@ export default function Home() {
             <div onClick={() => toggleCaret(1)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
               គាត់គិតថាវាជាឆ្កែមួយផ្សេងទៀតដែលមានសាច់មួយដុំធំជាងពីរដង។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_02.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(1)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[1] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -87,8 +97,19 @@ export default function Home() {
             </div>
 
             <div onClick={() => toggleCaret(2)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ដូច្នេះ គាត់​ក៏​រត់​ទៅ​រក​ឆ្កែ​មួយ​ក្បាល​ទៀត ដើម្បី​យក​ដុំ​ធំ​ជាង​នេះ។
+              ដោយធ្វើតាមដំបូន្មានរបស់គាត់ ពួកគេបានជ្រើសរើសសត្វកណ្ដុរធំជាងគេធ្វើជាអ្នកដឹកនាំរបស់ពួកគេ ហើយពួកគេទាំងនេះ
+              ដើម្បីអោយមានភាពខុសប្លែកពីឋានៈ និងឯកសារ បានផ្តល់មួកសុវត្ថិភាពដល់ពួកគេដែលមានចំបើងយ៉ាងច្រើន។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_03.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_04.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(2)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[2] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -101,10 +122,20 @@ export default function Home() {
             <div>
               <Image src="/stories/miceandweasels/miceandweasels_04.jpg" width={900} height={500} alt="INTERACTIVE SHORT STORIES IN KHMER" className="w-full mb-12" />
             </div>
-
             <div onClick={() => toggleCaret(3)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ប៉ុន្តែជាការពិតណាស់ អ្វីទាំងអស់ដែលបានកើតឡើងនោះគឺថាគាត់មិនបានទទួល។ មួយ​គឺ​គ្រាន់​តែ​ជា​ស្រមោល ហើយ​មួយ​ទៀត​ត្រូវ​បាន​គេ​យក​ទៅ​ដោយ​ចរន្ត។
+              បន្ទាប់មក ពួកគេបាននាំសត្វកណ្ដុរចេញប្រយុទ្ធ ដោយមានទំនុកចិត្តលើជ័យជម្នះ
+              ប៉ុន្តែពួកគេត្រូវបានចាញ់ដូចធម្មតា ហើយមិនយូរប៉ុន្មានក៏ត្រូវរត់គេចខ្លួនយ៉ាងលឿនតាមដែលអាចធ្វើបានទៅកាន់រន្ធរបស់ពួកគេ។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_05.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_06.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(3)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[3] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
@@ -120,8 +151,19 @@ export default function Home() {
             </div>
 
             <div onClick={() => toggleCaret(4)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
-              ប៉ុន្តែជាការពិតណាស់ អ្វីទាំងអស់ដែលបានកើតឡើងនោះគឺថាគាត់មិនបានទទួល។ មួយ​គឺ​គ្រាន់​តែ​ជា​ស្រមោល ហើយ​មួយ​ទៀត​ត្រូវ​បាន​គេ​យក​ទៅ​ដោយ​ចរន្ត។
+              ទាំងអស់បានធ្វើដំណើរទៅកាន់ទីទួលសុវត្ថិភាពដោយគ្មានការលំបាក លើកលែងតែមេដឹកនាំដែលត្រូវបានរារាំងយ៉ាងខ្លាំងដោយផ្លាកសញ្ញានៃឋានៈរបស់ពួកគេ
+              ដែលពួកគេមិនអាចចូលទៅក្នុងរន្ធរបស់ពួកគេ ហើយបានធ្លាក់ចូលទៅក្នុងជនរងគ្រោះយ៉ាងងាយស្រួលចំពោះអ្នកដេញតាមរបស់ពួកគេ។
             </div>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_07.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            <audio controls className="w-full mb-5">
+              {/* <source src="horse.ogg" type="audio/ogg"> */}
+              <source src="/stories/miceandweasels/audio_08.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
             <div className="flex flex-row gap-3 relative text-[18px] pl-5 mt-2 mb-20">
               <div onClick={() => toggleCaret(4)} className="absolute left-3 cursor-pointer">
                 <Image src={!caret[4] ? '/caret_up.svg' : '/caret_right.svg'} width={22} height={22} className="mt-[2px] mx-auto" alt="Virak"></Image>
