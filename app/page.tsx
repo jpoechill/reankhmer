@@ -3,6 +3,7 @@ import localFont from 'next/font/local'
 import Footer from './components/Footer'
 //👇 Configure our local font object
 const myFont = localFont({ src: './freehand.ttf' })
+import _stories from './data.json'
 
 export default function Home() {
   return (
@@ -30,9 +31,23 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 w-full px-10 lg:grid-cols-3 gap-y-10 gap-7 max-w-[1100px]">
 
 
+          {_stories.map((story, index) =>
+            <div key={index} className="w-full">
+              <div className="w-full mb-1">
+                <div className="overflow-hidden rounded-2xl">
+                  <a href={story.url}>
+                    <Image src={story.thumbnail || ''} className="hover:scale-[1.05] h-full w-full transition-all duration-500 cursor-pointer hover:grayscale-0" alt="INTERACTIVE SHORT STORIES IN KHMER" height={10000} width={800} />
+                  </a>
+                </div>
+              </div>
+              <div className="mt-3 text-[16px] mb-2">{story.title}</div>
+              <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
+              <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
+              <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
+            </div>
+          )}
 
-
-
+          {/* 
           <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
@@ -45,8 +60,8 @@ export default function Home() {
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
-          </div>
-          <div className="w-full">
+          </div> */}
+          {/* <div className="w-full">
             <div className="w-full mb-1">
               <div className="overflow-hidden rounded-2xl">
                 <a href="/stories">
@@ -112,7 +127,7 @@ export default function Home() {
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Easy</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">Aesop&apos;s Fable</button>
             <button className="py-1 mr-2 px-2 text-xs text-white rounded-md bg-[#429A85]">400 BCE</button>
-          </div>
+          </div> */}
 
         </div>
       </div>

@@ -1,0 +1,334 @@
+[
+    {
+        "title": "The Eagle and the Rooster",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "eagleandroosters",
+        "url": "/stories/eagleandroosters",
+        "splash":  "/eagleandroosters_01.jpg",
+        "thumbnail": "/splash_thumbs/eagleandroosters.png",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "មាន​មាន់​ពីរ​ក្បាល​នៅ​ក្នុង​ចម្ការ​តែ​មួយ ហើយ​ពួក​គេ​បាន​ប្រយុទ្ធ​ដើម្បី​សម្រេច​ថា​អ្នក​ណា​គួរ​ធ្វើ​ជា​ម្ចាស់។",
+                "audio": "/stories/eagleandroosters/audio_01.mp3",
+                "english": "There were two Roosters in the same farmyard, and they fought to decide who should be master."
+            },
+            {
+                "type": "image",
+                "src": "/stories/eagleandroosters/eagleandroosters_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ពេល​វាយ​គ្នា​ចប់ ជន​រង​គ្រោះ​ក៏​ទៅ​លាក់​ខ្លួន​នៅ​ជ្រុង​ងងឹត ។ ខណៈ​ដែល​អ្នក​ឈ្នះ​បាន​ហោះ​ឡើង​ទៅ​លើ​ដំបូល​ក្រោល​ហើយ​ស្រែក​ឆោឡោ។",
+                "audio": "/stories/eagleandroosters/audio_02.mp3",
+                "english": "When the fight was over, the beaten one went and hid himself in a dark corner; while the victor flew up on to the roof of the stables and crowed lustily."
+            },
+            {
+                "type": "image",
+                "src": "/stories/eagleandroosters/eagleandroosters_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ប៉ុន្តែ​ឥន្ទ្រី​មួយ​ក្បាល​បាន​ឈ្លប​មើល​គាត់​ពី​ទី​ខ្ពស់​មក​លើ​មេឃ ហើយ​ហោះ​ចុះ​ក្រោម​យក​គាត់​ចេញ។",
+                "audio": "/stories/eagleandroosters/audio_03.mp3",
+                "english": "But an Eagle espied him from high up in the sky, and swooped down and carried him off."
+            },
+            {
+                "type": "image",
+                "src": "/stories/eagleandroosters/eagleandroosters_04.jpg"
+            }
+        ]
+    },
+    {
+        "title": "The Dog and the Shadow",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "dogandshadow",
+        "url": "/stories/dogandshadow",
+        "splash": "/stories/dogandshadow/dogandshadow_01.jpg",
+        "thumbnail": "/splash_thumbs/dogandshadow.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "សត្វឆ្កែមួយក្បាលកំពុងឆ្លងកាត់ស្ពានឈើមួយនៅលើទឹកហូរដែលមានសាច់មួយនៅក្នុងមាត់របស់វា នៅពេលដែលវាបានឃើញការឆ្លុះបញ្ចាំងផ្ទាល់របស់វានៅក្នុងទឹក។",
+                "audio": "/stories/dogandshadow/audio_01.mp3",
+                "english": "A Dog was crossing a plank bridge over a stream with a piece of meat in his mouth, when he happened to see his own reflection in the water."
+            },
+            {
+                "type": "image",
+                "src": "/stories/dogandshadow/dogandshadow_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "គាត់គិតថាវាជាឆ្កែមួយផ្សេងទៀតដែលមានសាច់មួយដុំធំជាងពីរដង។ ដូច្នេះ គាត់​ក៏​រត់​ទៅ​រក​ឆ្កែ​មួយ​ក្បាល​ទៀត ដើម្បី​យក​ដុំ​ធំ​ជាង​នេះ។",
+                "audio": "/stories/dogandshadow/audio_02.mp3",
+                "english": "He thought it was another dog with a piece of meat twice as big; so he let go of his own, and flew at the other dog to get the larger piece."
+            },
+            {
+                "type": "image",
+                "src": "/stories/dogandshadow/dogandshadow_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ប៉ុន្តែជាការពិតណាស់ អ្វីទាំងអស់ដែលបានកើតឡើងនោះគឺថាគាត់មិនបានទទួល។ មួយ​គឺ​គ្រាន់​តែ​ជា​ស្រមោល ហើយ​មួយ​ទៀត​ត្រូវ​បាន​គេ​យក​ទៅ​ដោយ​ចរន្ត។",
+                "audio": "/stories/dogandshadow/audio_03.mp3",
+                "english": "But, of course, all that happened was that he got neither; for one was only a shadow, and the other was carried away by the current."
+            }
+        ]
+    },
+    {
+        "title": "The Tortoise and the Hare",
+        "titleKhmer": "អណ្តើក និងទន្សាយ",
+        "name": "tortoiseandhare",
+        "url": "/stories/tortoiseandhare",
+        "splash": "/stories/tortoiseandhare/tortoiseandhare_01.jpg",
+        "thumbnail": "/splash_thumbs/hareandtortoise.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "ថ្ងៃមួយ សត្វទន្សាយកំពុងលេងសើចនឹងអណ្តើក ដោយសារវាយឺតពេកនៅលើជើងរបស់គាត់។",
+                "audio": "/stories/tortoiseandhare/audio_01.mp3",
+                "english": "A Hare was one day making fun of a Tortoise for being so slow upon his feet."
+            },
+            {
+                "type": "text",
+                "khmer": "អណ្តើកបាននិយាយថា 'ចាំបន្តិច' 'ខ្ញុំនឹងរត់ប្រណាំងជាមួយអ្នក ហើយខ្ញុំនឹងភ្នាល់ថាខ្ញុំឈ្នះ'",
+                "audio": "/stories/tortoiseandhare/audio_02.mp3",
+                "english": "'Wait a bit,' said the Tortoise; 'I'll run a race with you, and I'll wager that I win.'"
+            },
+            {
+                "type": "image",
+                "src": "/stories/tortoiseandhare/tortoiseandhare_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ពេល​វេលា​បាន​មក​ដល់​អ្នក​ទាំង​ពីរ​ចាប់​ផ្តើម​ដើរ​លេង​ជាមួយ​គ្នា ប៉ុន្តែ​សត្វ​ទន្សាយ​ក៏​មក​ដល់​ពេល​ឆាប់​ៗ​នេះ",
+                "audio": "/stories/tortoiseandhare/audio_04.mp3",
+                "english": "When the time came both started off together, but the hare was soon so far ahead,"
+            },
+            {
+                "type": "text",
+                "khmer": "គិត​ថា​គាត់​ប្រហែល​ជា​បាន​សម្រាក​ដូច​គ្នា ដូច្នេះ​ហើយ​គាត់​ក៏​ដេក​លក់​យ៉ាង​លឿន។",
+                "audio": "/stories/tortoiseandhare/audio_05.mp3",
+                "english": "That thought he might as well have a rest: so down he lay and fell fast asleep."
+            },
+            {
+                "type": "image",
+                "src": "/stories/tortoiseandhare/tortoiseandhare_04.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ខណៈនោះ អណ្តើក​បាន​បន្ត​រុក​រុក​បន្ត ហើយ​ទាន់​ពេល​វេលា​ក៏​ឈាន​ដល់​គោលដៅ។",
+                "audio": "/stories/tortoiseandhare/audio_06.mp3",
+                "english": "Meanwhile the Tortoise kept plodding on, and in time reached the goal. "
+            },
+            {
+                "type": "text",
+                "khmer": "ទីបំផុត ទន្សាយភ្ញាក់ឡើងដោយចាប់ផ្តើម ហើយរត់យ៉ាងលឿនបំផុត ប៉ុន្តែគ្រាន់តែដឹងថា អណ្តើកបានឈ្នះការប្រណាំងរួចហើយ។",
+                "audio": "/stories/tortoiseandhare/audio_07.mp3",
+                "english": "At last the Hare woke up with a start, and dashed on at his fastest, but only to find that the Tortoise had already won the race."
+            }
+        ]
+    },
+    {
+        "title": "The Mice and the Weasels",
+        "titleKhmer": "អណ្តើក និងទន្សាយ",
+        "name": "miceandweasels",
+        "url": "/stories/miceandweasels",
+        "splash": "/stories/miceandweasels/miceandweasels_01.jpg",
+        "thumbnail": "/splash_thumbs/miceandweasels.png",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "មានសង្រ្គាមរវាងសត្វកណ្ដុរ និងសត្វកណ្ដុរ ដែលក្នុងនោះសត្វកណ្ដុរតែងតែទទួលបានភាពអាក្រក់បំផុតពីវា ដោយចំនួនពួកវាត្រូវបានសម្លាប់ និងស៊ីដោយសត្វខ្លា។",
+                "audio": "/stories/miceandweasels/audio_01.mp3",
+                "english": "There was war between the Mice and the Weasels, in which the Mice always got the worst of it, numbers of them being killed and eaten by the Weasels."
+            },
+            {
+                "type": "image",
+                "src": "/stories/miceandweasels/miceandweasels_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដូច្នេះ ពួកគេបានហៅក្រុមប្រឹក្សាសង្រ្គាម ដែលក្នុងនោះកណ្ដុរចំណាស់មួយក្បាលបានក្រោកឡើង ហើយនិយាយថា",
+                "audio": "/stories/miceandweasels/audio_02.mp3",
+                "english": "So they called a council of war, in which an old Mouse got up and said,"
+            },
+            {
+                "type": "text",
+                "khmer": "'វាគ្មានអ្វីចម្លែកទេ ដែលពួកយើងតែងតែត្រូវបានវាយដំ ត្បិតយើងគ្មានមេទ័ពសម្រាប់រៀបចំផែនការប្រយុទ្ធរបស់យើង និងដឹកនាំចលនារបស់យើងនៅក្នុងទីវាលនោះទេ'។",
+                "audio": "/stories/miceandweasels/audio_02.mp3",
+                "english": "&quot;It&apos;s no wonder we are always beaten, for we have no generals to plan our battles and direct our movements in the field.&quot;"
+            },
+            {
+                "type": "image",
+                "src": "/stories/miceandweasels/miceandweasels_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដោយធ្វើតាមដំបូន្មានរបស់គាត់ ពួកគេបានជ្រើសរើសសត្វកណ្ដុរដ៏ធំបំផុតធ្វើជាអ្នកដឹកនាំរបស់ពួកគេ ហើយទាំងនេះ",
+                "audio": "/stories/miceandweasels/audio_04.mp3",
+                "english": "Acting on his advice, they chose the biggest Mice to be their leaders, and these,"
+            },
+            {
+                "type": "text",
+                "khmer": "ដើម្បីអោយមានភាពខុសប្លែកពីឋានៈ និងឯកសារ បានផ្តល់មួកសុវត្ថិភាពដល់ពួកគេដែលមានចំបើងយ៉ាងច្រើន។",
+                "audio": "/stories/miceandweasels/audio_05.mp3",
+                "english": "in order to be distinguished from the rank and file, provided themselves with helmets bearing large plumes of straw."
+            },
+            {
+                "type": "image",
+                "src": "/stories/miceandweasels/miceandweasels_04.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "បន្ទាប់មក ពួកគេបាននាំសត្វកណ្ដុរចេញប្រយុទ្ធ ដោយមានទំនុកចិត្តលើជ័យជម្នះ",
+                "audio": "/stories/miceandweasels/audio_06.mp3",
+                "english": "They then led out the Mice to battle, confident of victory:"
+            },
+            {
+                "type": "text",
+                "khmer": "ប៉ុន្តែពួកគេត្រូវបានចាញ់ដូចធម្មតា ហើយមិនយូរប៉ុន្មានក៏ត្រូវរត់គេចខ្លួនយ៉ាងលឿនតាមដែលអាចធ្វើបានទៅកាន់រន្ធរបស់ពួកគេ។",
+                "audio": "/stories/miceandweasels/audio_07.mp3",
+                "english": "but they were defeated as usual, and were soon scampering as fast as they could to their holes."
+            },
+            {
+                "type": "image",
+                "src": "/stories/miceandweasels/miceandweasels_05.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ទាំងអស់បានធ្វើដំណើរទៅកាន់ទីទួលសុវត្ថិភាពដោយគ្មានការលំបាក លើកលែងតែមេដឹកនាំដែលត្រូវបានរារាំងយ៉ាងខ្លាំងដោយផ្លាកសញ្ញានៃឋានៈរបស់ពួកគេ",
+                "audio": "/stories/miceandweasels/audio_07.mp3",
+                "english": "All made their way to safety without difficulty except the leaders, who were so hampered by the badges of their rank"
+            },
+            {
+                "type": "text",
+                "khmer": "ដែលពួកគេមិនអាចចូលទៅក្នុងរន្ធរបស់ពួកគេ ហើយបានធ្លាក់ចូលទៅក្នុងជនរងគ្រោះយ៉ាងងាយស្រួលចំពោះអ្នកដេញតាមរបស់ពួកគេ។",
+                "audio": "/stories/miceandweasels/audio_08.mp3",
+                "english": "that they could not get into their holes, and fell easy victims to their pursuers."
+            }
+        ]
+    },
+    {
+        "title": "The Wolf in Sheep's Clothing",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "wolfinsheep",
+        "url": "/stories/wolfinsheep",
+        "splash": "/stories/wolfinsheep/wolfinsheep_01.jpg",
+        "thumbnail": "/splash_thumbs/wolfinsheep.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "ចចក​បាន​សម្រេចចិត្ត​ក្លែង​ខ្លួន​គាត់​ដើម្បី​ឱ្យ​គាត់​អាច​ចាប់​ហ្វូង​ចៀម​ដោយ​មិន​ខ្លាច​ការ​រកឃើញ។",
+                "audio": "/stories/wolfinsheep/audio_01.mp3",
+                "english": "A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដូច្នេះ គាត់​បាន​ស្លៀក​ពាក់​ស្បែក​ចៀម ហើយ​រអិល​ជើង​ទៅ​លើ​ហ្វូង​ចៀម ពេល​ដែល​វា​ចេញ​នៅ​វាល​ស្មៅ។",
+                "audio": "/stories/wolfinsheep/audio_02.mp3",
+                "english": "So he clothed himself in a sheepskin, and slipped among the sheep when they were out at pasture."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។",
+                "audio": "/stories/wolfinsheep/audio_03.mp3",
+                "english": "He completely deceived the shepherd, and when the flock was penned for the night he was shut in with the rest."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_04.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ប៉ុន្តែនៅយប់នោះដូចដែលវាបានកើតឡើង អ្នកគង្វាលតម្រូវឱ្យផ្គត់ផ្គង់សាច់ចៀមសម្រាប់តុ",
+                "audio": "/stories/wolfinsheep/audio_04.mp3",
+                "english": "But that very night as it happened, the shepherd, requiring a supply of mutton for the table,"
+            },
+            {
+                "type": "text",
+                "khmer": "បានដាក់ដៃលើឆ្កែចចកដោយខុសឆ្គងចំពោះចៀម ហើយសម្លាប់វាដោយកាំបិតនៅនឹងកន្លែង។",
+                "audio": "/stories/wolfinsheep/audio_05.mp3",
+                "english": "Laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot."
+            }
+        ]
+    },
+    {
+        "title": "The Two Bags",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "twobags",
+        "url": "/stories/twobags",
+        "splash": "/stories/twobags/twobags_01.jpg",
+        "thumbnail": "/splash_thumbs/twobags.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "បុរសគ្រប់រូបកាន់កាបូបពីរទៅជាមួយ មួយនៅខាងមុខ និងមួយពីក្រោយ ហើយទាំងពីរគឺពោរពេញទៅដោយកំហុស។",
+                "audio": "/stories/twobags/audio_01.mp3",
+                "english": "Every man carries two bags about with him, one in front and one behind, and both are packed full of faults."
+            },
+            {
+                "type": "image",
+                "src": "/stories/twobags/twobags_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "កាបូប​នៅ​ពី​មុខ​មាន​កំហុស​របស់​អ្នក​ជិត​ខាង​ដែល​នៅ​ពី​ក្រោយ​ខ្លួន​គាត់។",
+                "audio": "/stories/twobags/audio_02.mp3",
+                "english": "The bag in front contains his neighbors&apos;s faults, the one behind his own."
+            },
+            {
+                "type": "image",
+                "src": "/stories/twobags/twobags_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដូច្នេះ​ហើយ​ទើប​មនុស្ស​ប្រុស​មិន​មើល​ឃើញ​កំហុស​របស់​ខ្លួន ប៉ុន្តែ​មិន​ដែល​មើល​ឃើញ​កំហុស​របស់​អ្នក​ដទៃ​ឡើយ។",
+                "audio": "/stories/twobags/audio_03.mp3",
+                "english": "Hence it is that men do not see their own faults, but never fail to see those of others."
+            }
+        ]
+    }
+]
