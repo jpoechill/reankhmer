@@ -18,7 +18,6 @@ export default function Home({ params }: { params: { slug: string } }) {
   }
 
   const [caret, setCaret] = useState(story.blocks.map(() => false));
-
   const toggleCaret = (caretIndex: number) => {
     setCaret(prev => {
       return prev.map((item, itemIndex) => caretIndex === itemIndex ? !item : item)
@@ -54,13 +53,13 @@ export default function Home({ params }: { params: { slug: string } }) {
       </div>
 
       <div className="w-full flex items-center justify-center">
-        <div className="w-full px-10 max-w-[1100px] mt-10 mb-0">
+        <div className="w-full px-0 max-w-[1100px] mt-10 mb-0">
           <div className='w-full'>
 
             {
               story.blocks.map((block, index) => {
                 if (block.type === 'text') {
-                  return <div key={index} className=" mb-10">
+                  return <div key={index} className="px-10 md:px-5 mb-10">
                     <div onClick={() => toggleCaret(index)} className={`${myFont.className}` + ' cursor-pointer text-[34px] leading-[70px] font-medium tracking-wide w-full select-none'}>
                       {block.khmer}
                     </div>
