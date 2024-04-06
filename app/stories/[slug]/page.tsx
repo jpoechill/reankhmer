@@ -39,7 +39,7 @@ export default function Home({ params }: { params: { slug: string } }) {
       </div>
 
       <div style={{ "backgroundImage": "url('" + story.splash + "')" }} className={"flex flex-col justify-center items-center text-center text-[18px] text-white mt-[60px] bg-no-repeat bg-cover bg-center h-[400px] mb-0"}>
-        <div className={`${myFont.className}` + ' mt-0 text-[70px] leading-[110px] font-medium tracking-wide w-full select-none'}>
+        <div className={`${myFont.className}` + ' text-center mt-0 text-[70px] leading-[110px] font-medium tracking-wide w-full select-none'}>
           {story.titleKhmer}
         </div>
 

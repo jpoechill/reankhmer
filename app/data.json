@@ -1,11 +1,53 @@
 [
     {
+        "title": "The Two Bags",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "twobags",
+        "url": "/stories/twobags",
+        "splash": "/stories/twobags/twobags_01.jpg",
+        "thumbnail": "/thumbnails/twobags.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "បុរសគ្រប់រូបកាន់កាបូបពីរទៅជាមួយ មួយនៅខាងមុខ និងមួយពីក្រោយ ហើយទាំងពីរគឺពោរពេញទៅដោយកំហុស។",
+                "audio": "/stories/twobags/audio_01.mp3",
+                "english": "Every man carries two bags about with him, one in front and one behind, and both are packed full of faults."
+            },
+            {
+                "type": "image",
+                "src": "/stories/twobags/twobags_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "កាបូប​នៅ​ពី​មុខ​មាន​កំហុស​របស់​អ្នក​ជិត​ខាង​ដែល​នៅ​ពី​ក្រោយ​ខ្លួន​គាត់។",
+                "audio": "/stories/twobags/audio_02.mp3",
+                "english": "The bag in front contains his neighbors&apos;s faults, the one behind his own."
+            },
+            {
+                "type": "image",
+                "src": "/stories/twobags/twobags_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដូច្នេះ​ហើយ​ទើប​មនុស្ស​ប្រុស​មិន​មើល​ឃើញ​កំហុស​របស់​ខ្លួន ប៉ុន្តែ​មិន​ដែល​មើល​ឃើញ​កំហុស​របស់​អ្នក​ដទៃ​ឡើយ។",
+                "audio": "/stories/twobags/audio_03.mp3",
+                "english": "Hence it is that men do not see their own faults, but never fail to see those of others."
+            }
+        ]
+    },
+    {
         "title": "The Eagle and the Rooster",
         "titleKhmer": "ឆ្កែនិងស្រមោល",
         "name": "eagleandroosters",
         "url": "/stories/eagleandroosters",
-        "splash":  "/eagleandroosters_01.jpg",
-        "thumbnail": "/splash_thumbs/eagleandroosters.png",
+        "splash":  "/stories/eagleandroosters/eagleandroosters_01.jpg",
+        "thumbnail": "/thumbnails/eagleandroosters.png",
         "tags": [
             "Easy",
             "Aesop's Fables",
@@ -50,7 +92,7 @@
         "name": "dogandshadow",
         "url": "/stories/dogandshadow",
         "splash": "/stories/dogandshadow/dogandshadow_01.jpg",
-        "thumbnail": "/splash_thumbs/dogandshadow.png",
+        "thumbnail": "/thumbnails/dogandshadow.png",
         "coverImg": "",
         "tags": [
             "Easy",
@@ -87,12 +129,70 @@
         ]
     },
     {
+        "title": "The Wolf in Sheep's Clothing",
+        "titleKhmer": "ឆ្កែនិងស្រមោល",
+        "name": "wolfinsheep",
+        "url": "/stories/wolfinsheep",
+        "splash": "/stories/wolfinsheep/wolfinsheep_01.jpg",
+        "thumbnail": "/thumbnails/wolfinsheep.png",
+        "coverImg": "",
+        "tags": [
+            "Easy",
+            "Aesop's Fables",
+            "400 BCE"
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "khmer": "ចចក​បាន​សម្រេចចិត្ត​ក្លែង​ខ្លួន​គាត់​ដើម្បី​ឱ្យ​គាត់​អាច​ចាប់​ហ្វូង​ចៀម​ដោយ​មិន​ខ្លាច​ការ​រកឃើញ។",
+                "audio": "/stories/wolfinsheep/audio_01.mp3",
+                "english": "A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_02.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ដូច្នេះ គាត់​បាន​ស្លៀក​ពាក់​ស្បែក​ចៀម ហើយ​រអិល​ជើង​ទៅ​លើ​ហ្វូង​ចៀម ពេល​ដែល​វា​ចេញ​នៅ​វាល​ស្មៅ។",
+                "audio": "/stories/wolfinsheep/audio_02.mp3",
+                "english": "So he clothed himself in a sheepskin, and slipped among the sheep when they were out at pasture."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_03.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។",
+                "audio": "/stories/wolfinsheep/audio_03.mp3",
+                "english": "He completely deceived the shepherd, and when the flock was penned for the night he was shut in with the rest."
+            },
+            {
+                "type": "image",
+                "src": "/stories/wolfinsheep/wolfinsheep_04.jpg"
+            },
+            {
+                "type": "text",
+                "khmer": "ប៉ុន្តែនៅយប់នោះដូចដែលវាបានកើតឡើង អ្នកគង្វាលតម្រូវឱ្យផ្គត់ផ្គង់សាច់ចៀមសម្រាប់តុ",
+                "audio": "/stories/wolfinsheep/audio_04.mp3",
+                "english": "But that very night as it happened, the shepherd, requiring a supply of mutton for the table,"
+            },
+            {
+                "type": "text",
+                "khmer": "បានដាក់ដៃលើឆ្កែចចកដោយខុសឆ្គងចំពោះចៀម ហើយសម្លាប់វាដោយកាំបិតនៅនឹងកន្លែង។",
+                "audio": "/stories/wolfinsheep/audio_05.mp3",
+                "english": "Laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot."
+            }
+        ]
+    },
+    {
         "title": "The Tortoise and the Hare",
         "titleKhmer": "អណ្តើក និងទន្សាយ",
         "name": "tortoiseandhare",
         "url": "/stories/tortoiseandhare",
         "splash": "/stories/tortoiseandhare/tortoiseandhare_01.jpg",
-        "thumbnail": "/splash_thumbs/hareandtortoise.png",
+        "thumbnail": "/thumbnails/hareandtortoise.png",
         "coverImg": "",
         "tags": [
             "Easy",
@@ -152,7 +252,7 @@
         "name": "miceandweasels",
         "url": "/stories/miceandweasels",
         "splash": "/stories/miceandweasels/miceandweasels_01.jpg",
-        "thumbnail": "/splash_thumbs/miceandweasels.png",
+        "thumbnail": "/thumbnails/miceandweasels.png",
         "tags": [
             "Easy",
             "Aesop's Fables",
@@ -228,106 +328,6 @@
                 "khmer": "ដែលពួកគេមិនអាចចូលទៅក្នុងរន្ធរបស់ពួកគេ ហើយបានធ្លាក់ចូលទៅក្នុងជនរងគ្រោះយ៉ាងងាយស្រួលចំពោះអ្នកដេញតាមរបស់ពួកគេ។",
                 "audio": "/stories/miceandweasels/audio_08.mp3",
                 "english": "that they could not get into their holes, and fell easy victims to their pursuers."
-            }
-        ]
-    },
-    {
-        "title": "The Wolf in Sheep's Clothing",
-        "titleKhmer": "ឆ្កែនិងស្រមោល",
-        "name": "wolfinsheep",
-        "url": "/stories/wolfinsheep",
-        "splash": "/stories/wolfinsheep/wolfinsheep_01.jpg",
-        "thumbnail": "/splash_thumbs/wolfinsheep.png",
-        "coverImg": "",
-        "tags": [
-            "Easy",
-            "Aesop's Fables",
-            "400 BCE"
-        ],
-        "blocks": [
-            {
-                "type": "text",
-                "khmer": "ចចក​បាន​សម្រេចចិត្ត​ក្លែង​ខ្លួន​គាត់​ដើម្បី​ឱ្យ​គាត់​អាច​ចាប់​ហ្វូង​ចៀម​ដោយ​មិន​ខ្លាច​ការ​រកឃើញ។",
-                "audio": "/stories/wolfinsheep/audio_01.mp3",
-                "english": "A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection."
-            },
-            {
-                "type": "image",
-                "src": "/stories/wolfinsheep/wolfinsheep_02.jpg"
-            },
-            {
-                "type": "text",
-                "khmer": "ដូច្នេះ គាត់​បាន​ស្លៀក​ពាក់​ស្បែក​ចៀម ហើយ​រអិល​ជើង​ទៅ​លើ​ហ្វូង​ចៀម ពេល​ដែល​វា​ចេញ​នៅ​វាល​ស្មៅ។",
-                "audio": "/stories/wolfinsheep/audio_02.mp3",
-                "english": "So he clothed himself in a sheepskin, and slipped among the sheep when they were out at pasture."
-            },
-            {
-                "type": "image",
-                "src": "/stories/wolfinsheep/wolfinsheep_03.jpg"
-            },
-            {
-                "type": "text",
-                "khmer": "គាត់​បាន​បោក​បញ្ឆោត​អ្នក​គង្វាល​ទាំង​ស្រុង ហើយ​ពេល​ហ្វូង​ចៀម​ត្រូវ​បាន​គេ​កត់​ទុក​មួយ​យប់ គាត់​ត្រូវ​បាន​គេ​បិទ​ជាមួយ​អ្នក​ដែល​នៅ​សល់។",
-                "audio": "/stories/wolfinsheep/audio_03.mp3",
-                "english": "He completely deceived the shepherd, and when the flock was penned for the night he was shut in with the rest."
-            },
-            {
-                "type": "image",
-                "src": "/stories/wolfinsheep/wolfinsheep_04.jpg"
-            },
-            {
-                "type": "text",
-                "khmer": "ប៉ុន្តែនៅយប់នោះដូចដែលវាបានកើតឡើង អ្នកគង្វាលតម្រូវឱ្យផ្គត់ផ្គង់សាច់ចៀមសម្រាប់តុ",
-                "audio": "/stories/wolfinsheep/audio_04.mp3",
-                "english": "But that very night as it happened, the shepherd, requiring a supply of mutton for the table,"
-            },
-            {
-                "type": "text",
-                "khmer": "បានដាក់ដៃលើឆ្កែចចកដោយខុសឆ្គងចំពោះចៀម ហើយសម្លាប់វាដោយកាំបិតនៅនឹងកន្លែង។",
-                "audio": "/stories/wolfinsheep/audio_05.mp3",
-                "english": "Laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot."
-            }
-        ]
-    },
-    {
-        "title": "The Two Bags",
-        "titleKhmer": "ឆ្កែនិងស្រមោល",
-        "name": "twobags",
-        "url": "/stories/twobags",
-        "splash": "/stories/twobags/twobags_01.jpg",
-        "thumbnail": "/splash_thumbs/twobags.png",
-        "coverImg": "",
-        "tags": [
-            "Easy",
-            "Aesop's Fables",
-            "400 BCE"
-        ],
-        "blocks": [
-            {
-                "type": "text",
-                "khmer": "បុរសគ្រប់រូបកាន់កាបូបពីរទៅជាមួយ មួយនៅខាងមុខ និងមួយពីក្រោយ ហើយទាំងពីរគឺពោរពេញទៅដោយកំហុស។",
-                "audio": "/stories/twobags/audio_01.mp3",
-                "english": "Every man carries two bags about with him, one in front and one behind, and both are packed full of faults."
-            },
-            {
-                "type": "image",
-                "src": "/stories/twobags/twobags_02.jpg"
-            },
-            {
-                "type": "text",
-                "khmer": "កាបូប​នៅ​ពី​មុខ​មាន​កំហុស​របស់​អ្នក​ជិត​ខាង​ដែល​នៅ​ពី​ក្រោយ​ខ្លួន​គាត់។",
-                "audio": "/stories/twobags/audio_02.mp3",
-                "english": "The bag in front contains his neighbors&apos;s faults, the one behind his own."
-            },
-            {
-                "type": "image",
-                "src": "/stories/twobags/twobags_03.jpg"
-            },
-            {
-                "type": "text",
-                "khmer": "ដូច្នេះ​ហើយ​ទើប​មនុស្ស​ប្រុស​មិន​មើល​ឃើញ​កំហុស​របស់​ខ្លួន ប៉ុន្តែ​មិន​ដែល​មើល​ឃើញ​កំហុស​របស់​អ្នក​ដទៃ​ឡើយ។",
-                "audio": "/stories/twobags/audio_03.mp3",
-                "english": "Hence it is that men do not see their own faults, but never fail to see those of others."
             }
         ]
     }
